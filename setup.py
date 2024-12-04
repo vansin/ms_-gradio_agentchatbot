@@ -8,6 +8,9 @@ setup(
             'frontend*',
         ]
     ),
+    package_data={
+        '': ['*.html', '*.css', '*.js'],
+    },
     install_requires=[
         # 'gradio',
         # 'openai',
