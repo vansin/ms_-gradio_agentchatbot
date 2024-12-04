@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='ms_gradio_agentchatbot',
-    version='0.1.0',
+    name='msgradio',
+    version='0.1.1',
     packages=find_packages(
         include=[
-            'frontend',
+            'frontend*',
         ]
     ),
     install_requires=[
